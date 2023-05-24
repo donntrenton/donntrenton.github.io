@@ -23,16 +23,19 @@
 				<nav id="nav">
 					<ul>
 						<li><a href="#one" class="active">About</a></li>
-						<li><a href="#two">Skills & Interests</a></li>
-						<li><a href="#three">Projects</a></li>
-						<li><a href="#four">Contact</a></li>
+						<!-- <li><a href="#two">Skills & Interests</a></li> -->
+						<li><a href="#cloud-section">Cloud</a></li>
+						<li><a href="#restapi-section">REST API</a></li>
+						<li><a href="#blockchain-section">Blockchain</a></li>
+						<li><a href="#mobile-section">Mobile</a></li>
+						<li><a href="#contact-section">Contact</a></li>
 					</ul>
 				</nav>
 				<footer>
 					<ul class="icons">
 						<li><a href="http://www.linkedin.com/in/donntrenton" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
 						<li><a href="https://github.com/donntrenton" class="icon brands fa-github"><span class="label">Github</span></a></li>
-						<li><a href="donntrenton@outlook.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+						<li><a href="mailto:donntrenton@outlook.com" target="_blank" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
 					</ul>
 				</footer>
 			</section>
@@ -43,7 +46,7 @@
 				<!-- Main -->
 					<div id="main">
 
-						<!-- One -->
+						<!-- ABOUT SECTION -->
 							<section id="one">
 								<div class="image main" data-position="center">
 									<img src="images/banner.jpg" alt="" />
@@ -53,11 +56,13 @@
 										<h2>Practical and effective</h2>
 										<p>Content for the DevOps and Cloud developer community</p>
 									</header>
-									<p>Welcome to my portfolio page. It features projects I've worked on as well as skills, interests, and contact information.</p>
+									<p>Welcome to my portfolio!</p>
+									<p>This site features code-oriented projects that I've contributed to
+									   or created during the course of my work.</p>
 								</div>
 							</section>
 
-						<!-- Two -->
+						<!-- SKILLS SECTION
 							<section id="two">
 								<div class="container">
 									<h3>Skills & Interests</h3>
@@ -72,20 +77,21 @@
 									</ul>
 								</div>
 							</section>
+						-->
 
-						<!-- Three -->
-							<section id="three">
+						<!-- CLOUD SECTION -->
+							<section id="cloud-section">
 								<div class="container">
-									<h3>Projects</h3>
-									<p>The following are code-oriented projects that I've contributed to or created myself during the course of my career.</p>
+									<h3>Cloud</h3>
+									<p>Cloud computing related documentation and sample code.</p>
 									<div class="features">
 										<article>
 											<a href="#" class="image"><img src="images/pic01.jpg" alt="" /></a>
 											<div class="inner">
 												<h4>Set up an Azure IoT Hub for Azure Sphere</h4>
 												<p>Explains how to use Azure Sphere devices with Azure IoT Hub, how to create a hub and set it up to work with your Azure Sphere tenant, then configure x509 certificate authentication for each device.</br>
-												<a href="https://learn.microsoft.com/en-us/azure-sphere/app-development/setup-iot-hub">Set up an Azure IoT Hub for Azure Sphere (learn.microsoft.com)</a></br>
-												<a href="./files/Azure-IoT-Hub-for-Azure-Sphere.pdf">Set up an Azure IoT Hub for Azure Sphere (PDF)</a></p>
+												<a href="https://learn.microsoft.com/en-us/azure-sphere/app-development/setup-iot-hub">Docs on learn.microsoft.com</a></br>
+												<a href="./files/Azure-IoT-Hub-for-Azure-Sphere.pdf">Docs in PDF</a></p>
 											</div>
 										</article>
 										<article>
@@ -93,8 +99,8 @@
 											<div class="inner">
 												<h4>Set up Azure IoT Central to work with Azure Sphere</h4>
 												<p>Explains how to set up Azure IoT Central to work with Azure Sphere. When connected to Azure IoT Central, any device that is claimed into your Azure Sphere tenant is automatically authenticated when it first connects to your Azure IoT Central application.</br>
-												<a href="https://learn.microsoft.com/en-us/azure-sphere/app-development/setup-iot-central">Set up Azure IoT Central to work with Azure Sphere (learn.microsoft.com)</a></br>
-												<a href="./files/Azure-IoT-Central-for-Azure-Sphere.pdf">Set up Azure IoT Central to work with Azure Sphere (PDF)</a></p>
+												<a href="https://learn.microsoft.com/en-us/azure-sphere/app-development/setup-iot-central">Docs on learn.microsoft.com</a></br>
+												<a href="./files/Azure-IoT-Central-for-Azure-Sphere.pdf">Docs in PDF</a></p>
 											</div>
 										</article>
 										<article>
@@ -102,25 +108,206 @@
 											<div class="inner">
 												<h4>Set up Azure IoT Edge for Azure Sphere</h4>
 												<p>Describes how to set up an Azure IoT Edge device with Azure Sphere. Edge provides a filtering and data processing layer between a downstream device like Azure Sphere and Azure IoT Hub. Consider using Azure IoT Edge if your Azure Sphere device produces a considerable amount of data or data that requires post-processing.</br>
-												<a href="https://learn.microsoft.com/en-us/azure-sphere/app-development/setup-iot-edge">Set up Azure IoT Edge for Azure Sphere (learn.microsoft.com)</a></br>
-												<a href="./files/Azure-IoT-Edge-for-Azure-Sphere.pdf">Set up Azure IoT Edge for Azure Sphere (PDF)</a></p>
+												<a href="https://learn.microsoft.com/en-us/azure-sphere/app-development/setup-iot-edge">Docs on learn.microsoft.com</a></br>
+												<a href="./files/Azure-IoT-Edge-for-Azure-Sphere.pdf">Docs in PDF</a></p>
 											</div>
 										</article>
 										<article>
 											<a href="#" class="image"><img src="images/pic03.jpg" alt="" /></a>
 											<div class="inner">
-												<h4>PROJECT TITLE</h4>
-												<p>Description.</br>
-												<a href="#">TITLE (published doc)</a></br>
-												<a href="#">TITLE (PDF)</a></p>
+												<h4>Quickstart: Use .NET to create a Batch pool and run a job</h4>
+												<p>Shows you how to get started quickly with Azure Batch by running a C# app that uses the Azure Batch .NET API.</br>
+												<a href="https://learn.microsoft.com/en-us/azure/batch/tutorial-parallel-dotnet">Docs online</a></br>
+												<a href="./files/Batch-Dotnet-Quickstart.pdf">Docs in PDF</a></p>
+											</div>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="images/pic03.jpg" alt="" /></a>
+											<div class="inner">
+												<h4>Tutorial: Run a parallel workload with Azure Batch using the .NET API</h4>
+												<p>Walks through how to code a C# app to run a parallel workload using Batch. Batch runs large-scale parallel and high-performance computing (HPC) batch jobs efficiently in Azure.</br>
+												<a href="https://learn.microsoft.com/en-us/azure/batch/tutorial-parallel-dotnet">Docs online</a></br>
+												<a href="https://github.com/Azure-Samples/batch-dotnet-ffmpeg-tutorial">Sample app code (batch-dotnet-ffmpeg-tutorial)</a></br>
+												<a href="./files/Batch-Dotnet-Tutorial.pdf">Docs in PDF</a></p>
+											</div>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="images/pic03.jpg" alt="" /></a>
+											<div class="inner">
+												<h4>Azure Batch NET Tutorial Walkthrough</h4>
+												<p>Screencast walkthrough showing how to run a parallel compute workload with Azure Batch using an application written with the C# .NET SDK.</br>
+												<a href="https://youtu.be/jvX0IeFMmCE">Azure Batch NET Tutorial Walkthrough (YouTube)</a></br>
+											</div>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="images/pic03.jpg" alt="" /></a>
+											<div class="inner">
+												<h4>Quickstart: Create a Java app on Azure App Service</h4>
+												<p>Shows how to use the Azure CLI with the Azure Web App Plugin for Maven to deploy a .jar or .war file.</br>
+												<a href="https://docs.microsoft.com/en-us/azure/app-service/app-service-web-get-started-java">Docs online</a></br>
+												<a href="./files/Azure-Java-WebApp-Quickstart.pdf">Docs in PDF</a></p>
+											</div>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="images/pic03.jpg" alt="" /></a>
+											<div class="inner">
+												<h4>Get started with cloud development using Java on Azure</h4>
+												<p>Walks you through setting up a development environment for Azure development in Java. Create Azure resources and connect to them to do some basic tasks, like uploading a file or deploying a web application. You'll have a Java application ready to start using Azure services.</br>
+												<a href="https://learn.microsoft.com/en-us/azure/developer/java/sdk/get-started?view=azure-java-stable">Docs online</a></br>
+												<a href="./files/Azure-Java-Get-Started.pdf">Docs in PDF</a></p>
+											</div>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="images/pic03.jpg" alt="" /></a>
+											<div class="inner">
+												<h4>Getting Started with Amazon Kinesis Data Streams</h4>
+												<p>Shows you how to perform basic Amazon Kinesis Data Streams operations using the AWS Command Line Interface. Learn fundamental Kinesis Data Streams data flow principles and the steps necessary to put and get data from an Kinesis data stream.</br>
+												<a href="https://docs.aws.amazon.com/streams/latest/dev/getting-started.html">Docs online</a></br>
+												<a href="./files/Amazon-Kinesis-Getting-Started.pdf">Docs in PDF</a></p>
+											</div>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="images/pic03.jpg" alt="" /></a>
+											<div class="inner">
+												<h4>Amazon Kinesis Data Streams Terminology and Concepts</h4>
+												<p>Explains key concepts for Amazon Kinesis Data Streams.</br>
+												<a href="https://docs.aws.amazon.com/streams/latest/dev/key-concepts.html">Docs online</a></br>
+												<a href="./files/Amazon-Kinesis-Concepts.pdf">Docs in PDF</a></p>
 											</div>
 										</article>
 									</div>
 								</div>
 							</section>
 
-						<!-- Four -->
-							<section id="four">
+						<!-- REST API SECTION -->
+						<section id="restapi-section">
+							<div class="container">
+								<h3>REST API</h3>
+								<p>Documentation and demonstrations for RESTful web services (REST APIs).</p>
+								<div class="features">
+									<article>
+										<a href="#" class="image"><img src="images/pic03.jpg" alt="" /></a>
+										<div class="inner">
+											<h4>Cisco FMC REST API</h4>
+											<p>Produced demo videos (using Camtasia) on how to use the Cisco FMC REST API for various DevOps scenarios.</br>
+											<a href="https://www.youtube.com/playlist?list=PL-m9MzN3Amm7ilB9zsPz80XVIZGwshy2l">Cisco FMC REST API demo videos (YouTube)</a></br>
+										</div>
+									</article>
+
+									<article>
+										<a href="#" class="image"><img src="images/pic03.jpg" alt="" /></a>
+										<div class="inner">
+											<h4>TeleSign SMS Verify API</h4>
+											<p>Wrote original reference for SMS Verify API, which sends an SMS with a verification code to a recipient phone number.</br>
+											<a href="https://developer.telesign.com/enterprise/reference/sendsmsverifycode">Docs online</a></br>
+											<a href="./files/TeleSign-SMS-Verify-API.pdf">Docs in PDF</a></p>
+										</div>
+									</article>
+
+									<!--
+									<article>
+										<a href="#" class="image"><img src="images/pic03.jpg" alt="" /></a>
+										<div class="inner">
+											<h4>PROJECT 3 TITLE</h4>
+											<p>Description.</br>
+											<a href="#">Docs online</a></br>
+											<a href="#">Docs in PDF</a></p>
+										</div>
+									</article>
+									-->
+								</div>
+							</div>
+						</section>
+
+						<!-- BLOCKCHAIN SECTION -->
+						<section id="blockchain-section">
+							<div class="container">
+								<h3>Blockchain</h3>
+								<p>Documentation and sample code for Ethereum blockchain and network protocol.</p>
+								<div class="features">
+									<article>
+										<a href="#" class="image"><img src="images/pic03.jpg" alt="" /></a>
+										<div class="inner">
+											<h4>Hyperledger Besu API library</h4>
+											<p>Developer docs for the Hyperledger Besu Ethereum client, an open
+												source Ethereum client developed at ConsenSys. It consists of a CLI and a
+												JSON-RPC API, and supports smart contract and Dapp development, network
+												deployment and operation, using tools such as Truffle, Remix, and web3j.</br>
+											<a href="https://besu.hyperledger.org/">Hyperledger Besu docs online</a></br>
+										</div>
+									</article>
+									<article>
+										<a href="#" class="image"><img src="images/pic03.jpg" alt="" /></a>
+										<div class="inner">
+											<h4>Start a Private Blockchain Network (video)</h4>
+											<p>Produced this demo video (using Camtasia) on how to create a private Ethereum 
+												blockchain network using the Hyperledger Besu Ethereum client.</br>
+											<a href="https://youtu.be/fUDuBuqo-rY">Start a Private Blockchain Network (YouTube)</a></br>
+										</div>
+									</article>
+									<article>
+										<a href="#" class="image"><img src="images/pic03.jpg" alt="" /></a>
+										<div class="inner">
+											<h4>Getting Started with Pantheon webinar (video)</h4>
+											<p>Produced and presented a programming webinar for the Hyperledger Besu Ethereum client.</br>
+											<a href="https://youtu.be/OKWBr94J9rY">Getting Started with Pantheon webinar (YouTube)</a></br>
+										</div>
+									</article>
+								</div>
+							</div>
+						</section>
+
+						<!-- MOBILE SECTION -->
+						<section id="mobile-section">
+							<div class="container">
+								<h3>Mobile App Development</h3>
+								<p>Documentation and sample code for mobile apps.</p>
+								<div class="features">
+									<article>
+										<a href="#" class="image"><img src="images/pic03.jpg" alt="" /></a>
+										<div class="inner">
+											<h4>Developing Firefly Plugins</h4>
+											<p>Describes how to develop Firefly plugins on Amazon Fire OS (based on Android Open Source / AOSP). Firefly allows your mobile app to identify a visual or audio item and provide contextually meaningful actions for users to take for that item.</br>
+											<a href="https://web.archive.org/web/20171208112521/https:/www.developer.amazon.com/public/solutions/devices/fire-phone/docs/developing-firefly-plugins">Docs online</a></br>
+											<a href="./files/Amazon-Developing-Firefly-Plugins.pdf">Docs in PDF</a></p>
+										</div>
+									</article>
+									<article>
+										<a href="#" class="image"><img src="images/pic03.jpg" alt="" /></a>
+										<div class="inner">
+											<h4>Understanding Firefly</h4>
+											<p>Amazon Firefly technology allows you to identify real-world items by scanning them with your Fire phone.  These items can include books, videos, music, email addresses, barcodes, QR codes, web addresses, and phone numbers.</br>
+											<a href="https://web.archive.org/web/20171208112519/https:/www.developer.amazon.com/public/solutions/devices/fire-phone/docs/understanding-firefly">Docs online</a></br>
+											<a href="./files/Amazon-Understanding-Firefly.pdf">Docs in PDF (TBD)</a></p>
+										</div>
+									</article>
+
+									<article>
+										<a href="#" class="image"><img src="images/pic03.jpg" alt="" /></a>
+										<div class="inner">
+											<h4>Telesign SMS Verify SDK Tutorial</h4>
+											<p>Explains how to use the Telesign SMS Verify Java SDK to send an SMS with a one-time passcode.</br>
+											<a href="https://developer.telesign.com/enterprise/docs/sms-verify-tutorial-send-one-time-passcode-with-telesign-java-sdk">Docs online</a></br>
+											<a href="./files/Telesign-SMS-Verify-SDK.pdf">Docs in PDF</a></p>
+										</div>
+									</article>
+
+									<article>
+										<a href="#" class="image"><img src="images/pic03.jpg" alt="" /></a>
+										<div class="inner">
+											<h4>Telesign Voice Verify SDK Tutorial</h4>
+											<p>Explains how to use the Telesign Voice Verify Java SDK to send a custom voice message with a verification code to an end user.</br>
+											<a href="https://developer.telesign.com/enterprise/docs/voice-verify-tutorial-send-a-voice-message-with-verification-code">Docs online</a></br>
+											<a href="./files/Telesign-Voice-Verify-SDK.pdf">Docs in PDF</a></p>
+										</div>
+									</article>
+
+								</div>
+							</div>
+						</section>
+
+						<!-- CONTACT SECTION -->
+							<section id="contact-section">
 								<div class="container">
 									<h3>Contact Info:</h3>
 									<p>Location: Williamsport PA</p>
@@ -146,7 +333,7 @@
 								</div>
 							</section>
 
-						<!-- Five -->
+						<!-- EXTRA SECTION -->
 						<!--
 							<section id="five">
 								<div class="container">
@@ -483,7 +670,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 					<section id="footer">
 						<div class="container">
 							<ul class="copyright">
-								<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+								<li>&copy; 2023 Donn Trenton. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
 							</ul>
 						</div>
 					</section>
